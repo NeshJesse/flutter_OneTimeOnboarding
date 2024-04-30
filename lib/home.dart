@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
            final prefs = await SharedPreferences.getInstance();
            prefs.setBool("onboarding", false);
           },
-          child: const Text("Enable onboarding"),
+          child: const Text("Enable/allow the onboarding"),
         ),
       ),
     );
